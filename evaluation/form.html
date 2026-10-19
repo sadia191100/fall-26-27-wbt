@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+        <h2>Donor Information</h2>
+        <table>
+            <!--First name-->
+
+            <tr>
+                <td><label for="fname">First Name:</label></td>
+                <td><input type="text" name="fname" required></td>
+            </tr>
+            <!--Last name-->
+
+            <tr>
+                <td><label for="Lname">First Name:</label></td>
+                <td><input type="text" name="Lname" required></td>
+            </tr>
+            <!--Company-->
+            <tr>
+                <td><label for="com">Company:</label></td>
+                <td><input type="text" name="com" required></td>
+            </tr>
+
+            <!--Address 1-->
+            <tr>
+                <td><label for="address">Address 1:</label></td>
+                <td><input type="text" name="address1" required></td>
+            </tr>
+            <!--Address 2-->
+            <tr>
+                <td><label for="address">Address 2:</label></td>
+                <td><input type="text" name="address2" required></td>
+            </tr>
+            <!--City-->
+            <tr>
+                <td><label for="city">City:</label></td>
+                <td><input type="text" name="city" required></td>
+            </tr>
+            <!--State-->
+            <tr>
+                <td><label for="state">State:</label></td>
+                <td>
+                    <select id="State" name="State">
+
+                        <option>Select a State</option>
+                        <option>Dhaka</option>
+                        <option>Gopalganj</option>
+                        <option>khulna</option>
+                    </select>
+
+                </td>
+            </tr>
+            <!--Zip Code-->
+
+            <tr>
+                <td><label for="Zip">Zip Code:</label></td>
+                <td><input type="number" name="Zip" required></td>
+            </tr>
+
+            <!--Country-->
+            <tr>
+                <td><label for="country">Country:</label></td>
+                <td>
+                    <select id="Country" name="Country">
+
+                        <option>Select a State</option>
+                        <option>UK</option>
+                        <option>Argentina</option>
+                        <option>USA</option>
+                    </select>
+
+                </td>
+            </tr>
+            <!--Phone-->
+
+            <tr>
+                <td><label for="phone">Phone:</label></td>
+                <td><input type="tel" name="phone" required></td>
+            </tr>
+            <!--Fax-->
+            <tr>
+                <td><label for="fax">Fax:</label></td>
+                <td><input type="tel" name="fax" required></td>
+            </tr>
+            <!--Email-->
+            <tr>
+                <td><label for="email">Email*:</label></td>
+                <td><input type="text" name="email" required></td>
+            </tr>
+            <!--Donation Amount-->
+            <tr>
+                <td><label>Donation Amount:</label><br>
+                    (Check a button or type in your amount)
+
+
+
+                <td>
+                    <input type="radio" name="Amount" value="None"> None
+                    <input type="radio" name="Amount" value="$50"> $50
+                    <input type="radio" name="Amount" value="$75"> $75
+                    <input type="radio" name="Amount" value="$100"> $100
+                    <input type="radio" name="Amount" value="$250"> $250
+                    <input type="radio" value="Others"> $Others
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="amount">Others Amount $:</label>
+                    <input type="text" name="amount" required>
+                </td>
+            </tr>
+            <!--Recurring Donation-->
+            <tr>
+                <td><label>Recurring Donation:</label><br>
+                    (Check if yes)
+
+
+
+                <td>
+                    <input type="checkbox" value="I am Interested in giving on a regular basis">I am Interested in
+                    giving on a regular basis.
+
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label for="credit">Monthly Credit Card $:</label>
+                    <input type="number" name="month" required>
+                    <label for="For">For</label>
+                    <input type="number" name="month" required>
+                    <label for="Month"> Months</label>
+                </td>
+            </tr>
+
+
+        </table>
+
+    </fieldset>
+    <table>
+        <fieldset>
+
+            <h2>Honorarium and Memorial Donation Information</h2>
+            <tr>
+                <td> <label>I would like to make this Donation:</label><br>
+
+                <td>
+
+                    <input type="checkbox" value="honor"> To Honor<br>
+                    <input type="checkbox" value="memory"> In Memory of
+
+
+
+
+                </td>
+
+            </tr>
+
+
+
+            <!-- Name -->
+            <tr>
+                <td> <label for="name">Name:</label></td>
+                <td><input type="text" name="name" required></td>
+
+            </tr>
+
+            <!-- Donation to-->
+            <tr>
+                <td> <label for="Donation">Acknowledge Donation To:</label></td>
+                <td><input type="text" name="Donation" required></td>
+
+            </tr>
+            <!--Address-->
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td><input type="text" name="address" required></td>
+            </tr>
+            <!--City-->
+            <tr>
+                <td><label for="city">City:</label></td>
+                <td><input type="text" name="city" required></td>
+            </tr>
+            <!--State-->
+            <tr>
+                <td><label for="state">State:</label></td>
+                <td>
+                    <select id="State" name="State">
+
+                        <option>Select a State</option>
+                        <option>Dhaka</option>
+                        <option>Gopalganj</option>
+                        <option>khulna</option>
+                    </select>
+
+                </td>
+            </tr>
+
+
+            <tr>
+                <td><label for="Zip">Zip:</label></td>
+                <td><input type="number" name="Zip" required></td>
+            </tr>
+
+
+
+
+    </table>
+    </fieldset>
+    <td></td>
+
+
+
+    <input type="reset" name="Reset">
+    <input type="submit" value="Continue">
+
+    </td>
+
+</body>
+
+</html>
